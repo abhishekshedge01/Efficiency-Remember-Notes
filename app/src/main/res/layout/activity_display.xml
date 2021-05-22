@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAE4E4"
+    tools:context=".DisplayActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbardisp"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/displayTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:autofillHints=""
+            android:fontFamily="@font/asap"
+            android:inputType="textNoSuggestions"
+            android:paddingTop="15dp"
+            android:textSize="23sp"
+            android:text="@string/enter_here"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/displayContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbardisp"
+        android:autofillHints=""
+        android:background="@null"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:paddingLeft="15dp"
+        android:textSize="17sp"
+        android:fontFamily="@font/chivo"
+        android:paddingBottom="0dp"
+        android:paddingTop="25dp"
+        android:text="@string/edit_your_text_here"
+        android:textColor="@color/black"
+        tools:ignore="RtlHardcoded" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:id="@+id/editupdate"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_alignParentRight="true"
+        app:backgroundTint="#FF9800"
+        app:elevation="12dp"
+        android:src="@drawable/ic_baseline_edit_24"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        app:maxImageSize="30dp"
+        tools:ignore="InvalidId,RtlHardcoded"
+        android:contentDescription="@string/todo">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya_sans_medium</item>
+        <item>@font/amarante</item>
+        <item>@font/amaranth</item>
+        <item>@font/amaranth_bold</item>
+        <item>@font/amita</item>
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/arima_madurai</item>
+        <item>@font/arimo_bold</item>
+        <item>@font/asap</item>
+        <item>@font/bree_serif</item>
+        <item>@font/chewy</item>
+        <item>@font/chivo</item>
+        <item>@font/copse</item>
+        <item>@font/delius_swash_caps</item>
+        <item>@font/give_you_glory</item>
+        <item>@font/heebo_medium</item>
+        <item>@font/montserrat_alternates</item>
+        <item>@font/nothing_you_could_do</item>
+        <item>@font/sarala_bold</item>
+    </array>
+</resources>
