@@ -10,4 +10,4 @@
 • Incomplete tasks will be automatically moved on to next day for completion.
 
 
-<b>Hit the star if you read and like this intution behind the app!</b>
+<b>Hit the star if you read and like the intution behind the app!</b>
