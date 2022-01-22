@@ -1,4 +1,4 @@
-# RememberNotes
+# Efficiency-Remember-Notes
 • Allows a user to make personalised notes  on a realtime basis.<br/>
 • This app can be useful in college events and fests where a group of people are working on a set of tasks.<br/>
 • Once the task gets completed the user can mark it completed.<br/>
